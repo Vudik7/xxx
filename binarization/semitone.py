@@ -14,8 +14,8 @@ def semitone(old_image):
     return (0.3 * old_image[:, :, 0] + 0.59 * old_image[:, :, 1] + 0.11 * old_image[:, :, 2]).astype(np.uint8)
 
 if __name__ == '__main__':
-    image_name = 'capitan.png'  # Имя файла изображения (измените, если нужно)
-    pictures_folder = '22' # Папка, где лежит изображение
+    image_name = 'xray.png'  # Имя файла изображения (измените, если нужно)
+    pictures_folder = 'pictures_src' # Папка, где лежит изображение
 
     try:
         img_src = Image.open(f'{pictures_folder}/{image_name}').convert('RGB')
@@ -28,7 +28,7 @@ if __name__ == '__main__':
         img_semitone.show()
 
         # Дополнительно: Сохранение полутонового изображения в файл (BMP формат)
-        output_image_name = f'semitone_{image_name.split(".")[0]}.png' # Имя файла для сохранения
+        output_image_name = f'semitone_{image_name.split(".")[0]}.bmp' # Имя файла для сохранения
         img_semitone.save(output_image_name)
         print(f"Полутоновое изображение сохранено как: {output_image_name}")
 

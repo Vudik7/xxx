@@ -108,80 +108,57 @@
 
 Передискретизация изображения в K=3/2 раз за два прохода. Исходный размер `720x720` результирующий размер `1080x1080`:
 
-![Resampling2loop](res/downsampling3x2_spiral1.png)
+![!](res/downsampling3x2_spiral1.png)
 
 #### 2.4 Передискретизация изображения в K раз за один проход
 
 Передискретизация изображения в K=3/2 раз за один проход. Исходный размер `720x458` результирующий размер `1080x687`:
 
-![Resampling1loop](res/resampling_text1.png)
+![!](res/resampling_text1.png)
 
----
+
 
 Передискретизация изображения в K=3/2 раз за один проход. Исходный размер `720x720` результирующий размер `1080x1080`:
 
-![Resampling1loop](res/resampling_spiral1.png)
+![!](res/resampling_spiral1.png)
 
 ### 2. Приведение полноцветного изображения к полутоновому
 
 Исходное изображение:
 
-![Original](../original/test10.png)
+![Original](/original/test10.png)
 
 Результирующее изображение с обычными коэффицентами:
 
 
 ![SemitoneNormal](res/halftone_test10.png)
 
-Результирующее изображение с коэффицентами photoshop:
-
-![SemitoneNormal](res/halftonePS_test10.png)
-
 ---
 
 Исходное изображение:
 
-![Original](../original/test11.jpg)
+![Original](/original/test11.jpg)
 
 Результирующее изображение с обычными коэффицентами:
 
 ![SemitoneNormal](res/halftone_test11.jpg)
 
-Результирующее изображение с коэффицентами photoshop:
-
-![SemitoneNormal](res/halftonePS_test11.jpg)
 
 ### 3. Приведение полутонового изображения к монохромному методом пороговой обработки
 
-> Алгоритм адаптивной бинаризации Кристиана
+> Алгоритм адаптивной бинаризации Cаувола  (ОКНО 5 x 5)
 
 Исходное изображение:
 
-![Original](res/downsampling_cat2.jpg)
-
-|**B \ K**		|					0.2								   |					0.6				    			  |					0.8                                  |
+|		|												   |								    			  |					                            |
 |---------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
-|**20** 		|![kristian_threshold](res/threshold_b20_k0.2_cat2.jpg)|![kristian_threshold](res/threshold_b20_k0.6_cat2.jpg)|![kristian_threshold](res/threshold_b20_k0.8_cat2.jpg)|
-|**40**			|![kristian_threshold](res/threshold_b40_k0.2_cat2.jpg)|![kristian_threshold](res/threshold_b40_k0.6_cat2.jpg)|![kristian_threshold](res/threshold_b40_k0.8_cat2.jpg)|
-|**80**			|![kristian_threshold](res/threshold_b80_k0.2_cat2.jpg)|![kristian_threshold](res/threshold_b80_k0.6_cat2.jpg)|![kristian_threshold](res/threshold_b80_k0.8_cat2.jpg)|
+| 		|![.](binarization/semitone_capitan.png)|![.](binarization/semitone_cartoon.png)|![.](binarization/semitone_contour_map.png)|
+|			|![.](binarization/semitone_fingerprint.png)|![.](binarization/semitone_xray.png)|![.](binarization/semitone_xray1.png)|
 
 
----
 
-Исходное изображение:
+|		|												   |								    			  |					                            |
+|---------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+| 		|![.](binarization/processed/processed_1.png)|![.](binarization/processed/processed_2.png)|![.](binarization/processed/processed_3.png)|
+|			|![.](binarization/processed/processed_4.png)|![.](binarization/processed/processed_5.png)|![.](binarization/processed/processed_6.png)|
 
-![Original](../original/text1.jpg)
-
-Результирующее изображение c `k = 0.2`, `b = 15`:
-
-![kristian_threshold](res/threshold_text1.jpg)
-
-
-![Original](res/downsampling2_text1.jpg)
-
-
-|**B \ K**		|					0.2									|					0.6									|					0.8                                 |
-|---------------|-------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|
-|**20** 		|![kristian_threshold](res/threshold_b20_k0.2_downsampling2_text1.jpg)|![kristian_threshold](res/threshold_b20_k0.6_downsampling2_text1.jpg)|![kristian_threshold](res/threshold_b20_k0.6_downsampling2_text1.jpg)|
-|**40**			|![kristian_threshold](res/threshold_b40_k0.2_downsampling2_text1.jpg)|![kristian_threshold](res/threshold_b20_k0.6_downsampling2_text1.jpg)|![kristian_threshold](res/threshold_b20_k0.6_downsampling2_text1.jpg)|
-|**80**			|![kristian_threshold](res/threshold_b80_k0.2_downsampling2_text1.jpg)|![kristian_threshold](res/threshold_b40_k0.6_downsampling2_text1.jpg)|![kristian_threshold](res/threshold_b40_k0.6_downsampling2_text1.jpg)|
