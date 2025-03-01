@@ -62,11 +62,11 @@
 
 Интерполяция в 2 раза. Исходный размер `720x458` результирующий размер `1440x916`:
 
-![UpsamplingX2](res/upsampling2_text1.png)
+![.](/res/upsampling2_text1.png)
 
 Интерполяция в 3 раза. Исходный размер `720x458` результирующий размер `2160x1374`:
 
-![UpsamplingX3](res/upsampling_text1.png)
+![.](/res/upsampling_text1.png)
 
 ---
 
