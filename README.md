@@ -128,7 +128,7 @@
 
 ![Original](/original/test10.png)
 
-Результирующее изображение с обычными коэффицентами:
+Результирующее изображение:
 
 
 ![SemitoneNormal](/res/halftone_test10.png)
@@ -139,7 +139,7 @@
 
 ![Original](/original/test11.png)
 
-Результирующее изображение с обычными коэффицентами:
+Результирующее изображение:
 
 ![SemitoneNormal](/res/halftone_test11.png)
 
@@ -170,8 +170,9 @@
 ![.](binarization/semitone_cartoon.png)
 ![.](binarization/processed/processed_2.png)
 ---
-![.](binarization/processed/processed_3.png)
 ![.](binarization/semitone_contour_map.png)
+![.](binarization/processed/processed_3.png)
+
 ---
 ![.](binarization/semitone_fingerprint.png)
 ![.](binarization/processed/processed_4.png)
