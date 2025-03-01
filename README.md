@@ -62,11 +62,11 @@
 
 Интерполяция в 2 раза. Исходный размер `720x458` результирующий размер `1440x916`:
 
-![UpsamplingX2](res/upsampling2_text1.jpg)
+![UpsamplingX2](res/upsampling2_text1.png)
 
 Интерполяция в 3 раза. Исходный размер `720x458` результирующий размер `2160x1374`:
 
-![UpsamplingX3](res/upsampling_text1.jpg)
+![UpsamplingX3](res/upsampling_text1.png)
 
 ---
 
@@ -137,11 +137,11 @@
 
 Исходное изображение:
 
-![Original](/original/test11.jpg)
+![Original](/original/test11.png)
 
 Результирующее изображение с обычными коэффицентами:
 
-![SemitoneNormal](res/halftone_test11.jpg)
+![SemitoneNormal](res/halftone_test11.png)
 
 
 ### 3. Приведение полутонового изображения к монохромному методом пороговой обработки
