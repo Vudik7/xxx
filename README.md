@@ -163,3 +163,22 @@
 |			|![.](binarization/processed/processed_4.png)|![.](binarization/processed/processed_5.png)|![.](binarization/processed/processed_6.png)|
 
 
+---
+![.](binarization/semitone_capitan.png)  
+![.](binarization/processed/processed_1.png)
+--
+![.](binarization/semitone_cartoon.png)
+![.](binarization/processed/processed_2.png)
+---
+![.](binarization/processed/processed_3.png)
+![.](binarization/semitone_contour_map.png)
+---
+![.](binarization/semitone_fingerprint.png)
+![.](binarization/processed/processed_4.png)
+---
+![.](binarization/semitone_xray.png)
+![.](binarization/processed/processed_5.png)
+---
+![.](binarization/semitone_xray1.png)
+![.](binarization/processed/processed_6.png)
+---
