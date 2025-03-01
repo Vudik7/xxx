@@ -162,3 +162,4 @@
 | 		|![.](binarization/processed/processed_1.png)|![.](binarization/processed/processed_2.png)|![.](binarization/processed/processed_3.png)|
 |			|![.](binarization/processed/processed_4.png)|![.](binarization/processed/processed_5.png)|![.](binarization/processed/processed_6.png)|
 
+
