@@ -72,37 +72,37 @@
 
 Интерполяция в 2 раза. Исходный размер `720x720` результирующий размер `1440x1440`:
 
-![UpsamplingX2](res/upsampling2_spiral1.png)
+![UpsamplingX2](/res/upsampling2_spiral1.png)
 
 Интерполяция в 3 раза. Исходный размер `720x720` результирующий размер `2160x2160`:
 
-![UpsamplingX3](res/upsampling3_spiral1.png)
+![UpsamplingX3](/res/upsampling3_spiral1.png)
 
 #### 2.2 Сжатие (децимация) изображения в N раз
 
 Децимация в 2 раза. Исходный размер `720x458` результирующий размер `360x229`:
 
-![DownsamplingX2](res/downsampling2_text1.png)
+![DownsamplingX2](/res/downsampling2_text1.png)
 
 Децимация в 3 раза. Исходный размер `720x458` результирующий размер `240x153`:
 
-![DownsamplingX3](res/downsampling3_text1.png)
+![DownsamplingX3](/res/downsampling3_text1.png)
 
 ---
 
 Децимация в 2 раза. Исходный размер `720x720` результирующий размер `360x360`:
 
-![DownsamplingX2](res/downsampling2_spiral1.png)
+![DownsamplingX2](/res/downsampling2_spiral1.png)
 
 Децимация в 3 раза. Исходный размер `720x720` результирующий размер `240x240`:
 
-![DownsamplingX3](res/downsampling3_spiral1.png)
+![DownsamplingX3](/res/downsampling3_spiral1.png)
 
 #### 2.3 Передискретизация изображения в K=M/N раз путём растяжения и последующего сжатия (в два прохода)
 
 Передискретизация изображения в K=3/2 раз за два прохода. Исходный размер `720x458` результирующий размер `1080x687`:
 
-![Resampling2loop](res/downsampling3x2_text1.png)
+![Resampling2loop](/res/downsampling3x2_text1.png)
 
 ---
 
@@ -120,7 +120,7 @@
 
 Передискретизация изображения в K=3/2 раз за один проход. Исходный размер `720x720` результирующий размер `1080x1080`:
 
-![!](res/resampling_spiral1.png)
+![!](/res/resampling_spiral1.png)
 
 ### 2. Приведение полноцветного изображения к полутоновому
 
@@ -131,7 +131,7 @@
 Результирующее изображение с обычными коэффицентами:
 
 
-![SemitoneNormal](res/halftone_test10.png)
+![SemitoneNormal](/res/halftone_test10.png)
 
 ---
 
@@ -141,7 +141,7 @@
 
 Результирующее изображение с обычными коэффицентами:
 
-![SemitoneNormal](res/halftone_test11.png)
+![SemitoneNormal](/res/halftone_test11.png)
 
 
 ### 3. Приведение полутонового изображения к монохромному методом пороговой обработки
